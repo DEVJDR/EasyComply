@@ -13,22 +13,20 @@ export const metadata: Metadata = {
   title: "EasyComply – Simplify Compliance & Onboarding",
   description:
     "EasyComply helps SMEs and EHS teams with digital onboarding, automated compliance tracking, and smart workflows without paperwork overload.",
-  keywords: [
-    "compliance software",
-    "SME onboarding",
-    "EHS compliance",
-    "workflow automation",
-    "safety management",
-  ],
+  icons: {
+    icon: "/favicon.ico", // for browser tab
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "EasyComply – Compliance Made Simple",
     description:
       "See how EasyComply digitizes compliance, onboarding, and safety workflows for SMEs and EHS teams.",
-    url: "https://yourdomain.com", // replace with your domain
+    url: "https://easy-comply-five.vercel.app/",
     siteName: "EasyComply",
     images: [
       {
-        url: "https://yourdomain.com/og-home.png", // upload OG preview
+        url: "https://res.cloudinary.com/drygb9yrf/image/upload/v1757522806/lgog_emkye2.png",
         width: 1200,
         height: 630,
         alt: "EasyComply Platform Preview",
@@ -42,9 +40,10 @@ export const metadata: Metadata = {
     title: "EasyComply – Compliance Made Simple",
     description:
       "Automated compliance tracking, streamlined onboarding, and effortless collaboration.",
-    images: ["https://yourdomain.com/og-home.png"],
+    images: ["https://res.cloudinary.com/drygb9yrf/image/upload/v1757522806/lgog_emkye2.png"],
   },
 };
+
 export default function Home() {
   return (
     <Container>
