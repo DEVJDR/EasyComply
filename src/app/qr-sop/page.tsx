@@ -62,6 +62,71 @@ const fallbackMachines: Machine[] = [
     checklist: { preOp: [], op: [], postOp: [], safety: [] },
     isLocked: true, // locked
   },
+   {
+    id: "teknodome_pcb_assembler_100",
+    name: "PCB Assembler – Model 100",
+    location: "Plot No.94, Block-B, Phase-II, Noida, U.P.-201305",
+    video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/pcb-en.mp4",
+    checklist: {
+      preOp: [{ id: "power", en: "Check power supply connection" }],
+      op: [{ id: "align", en: "Align PCB components" }],
+      postOp: [{ id: "test", en: "Test circuit continuity" }],
+      safety: [{ id: "gloves", en: "Wear anti-static gloves" }],
+    },
+    isLocked: true, // locked
+  },
+  {
+    id: "cubix_wave_solder_e500",
+    name: "Wave Soldering – E500",
+    location: "F-19, Sector-11, NOIDA - 201301, Uttar Pradesh",
+    video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/wave-en_bnqktu.mp4",
+    checklist: {
+      preOp: [{ id: "esd", en: "Wear ESD wrist strap & connect to ground" }],
+      op: [{ id: "temp", en: "Set solder temperature to 250°C" }],
+      postOp: [{ id: "inspect", en: "Inspect solder joints" }],
+      safety: [{ id: "estop", en: "Know Emergency Stop location" }],
+    },
+    isLocked: true, // locked
+  },
+  {
+    id: "smtwise_smt_placer_300",
+    name: "SMT Placer – Model 300",
+    location: "B 110, 1st floor, Secter 88, Noida, Uttar Pradesh 201301",
+    video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/smt-en.mp4",
+    checklist: {
+      preOp: [{ id: "calibrate", en: "Calibrate placement head" }],
+      op: [{ id: "load", en: "Load SMT components" }],
+      postOp: [{ id: "verify", en: "Verify placement accuracy" }],
+      safety: [{ id: "guard", en: "Check safety guard" }],
+    },
+    isLocked: true, // locked
+  },
+  {
+    id: "hbeonlabs_rfid_reader_200",
+    name: "RFID Reader – Model 200",
+    location: "Plot No. B-6/5, Site 5, Surajpur Industrial Area, Greater Noida, U.P. 201306",
+    video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/rfid-en.mp4",
+    checklist: {
+      preOp: [{ id: "connect", en: "Connect RFID antenna" }],
+      op: [{ id: "scan", en: "Scan RFID tags" }],
+      postOp: [{ id: "log", en: "Log scan results" }],
+      safety: [{ id: "power", en: "Turn off power when idle" }],
+    },
+    isLocked: true, // locked
+  },
+  {
+    id: "techno_automation_robot_400",
+    name: "Automation Robot – Model 400",
+    location: "B-108/109, G.I.D.C., Electronics Estate, Sector-25, Gandhinagar, Gujarat - 382025",
+    video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/automation-en.mp4",
+    checklist: {
+      preOp: [{ id: "test", en: "Test motor functionality" }],
+      op: [{ id: "run", en: "Run automation cycle" }],
+      postOp: [{ id: "clean", en: "Clean robotic arm" }],
+      safety: [{ id: "fence", en: "Check safety fence integrity" }],
+    },
+    isLocked: true, // locked
+  },
 ];
 
   // Load machines from Supabase
