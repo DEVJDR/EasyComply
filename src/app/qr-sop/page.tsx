@@ -65,7 +65,7 @@ const fallbackMachines: Machine[] = [
    {
     id: "teknodome_pcb_assembler_100",
     name: "PCB Assembler – Model 100",
-    location: "Plot No.94, Block-B, Phase-II, Noida, U.P.-201305",
+    location: "Line D",
     video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/pcb-en.mp4",
     checklist: {
       preOp: [{ id: "power", en: "Check power supply connection" }],
@@ -78,7 +78,7 @@ const fallbackMachines: Machine[] = [
   {
     id: "cubix_wave_solder_e500",
     name: "Wave Soldering – E500",
-    location: "F-19, Sector-11, NOIDA - 201301, Uttar Pradesh",
+    location: "Line E",
     video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/wave-en_bnqktu.mp4",
     checklist: {
       preOp: [{ id: "esd", en: "Wear ESD wrist strap & connect to ground" }],
@@ -91,7 +91,7 @@ const fallbackMachines: Machine[] = [
   {
     id: "smtwise_smt_placer_300",
     name: "SMT Placer – Model 300",
-    location: "B 110, 1st floor, Secter 88, Noida, Uttar Pradesh 201301",
+    location: "Line F",
     video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/smt-en.mp4",
     checklist: {
       preOp: [{ id: "calibrate", en: "Calibrate placement head" }],
@@ -104,7 +104,7 @@ const fallbackMachines: Machine[] = [
   {
     id: "hbeonlabs_rfid_reader_200",
     name: "RFID Reader – Model 200",
-    location: "Plot No. B-6/5, Site 5, Surajpur Industrial Area, Greater Noida, U.P. 201306",
+    location: "Line B1",
     video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/rfid-en.mp4",
     checklist: {
       preOp: [{ id: "connect", en: "Connect RFID antenna" }],
@@ -117,7 +117,7 @@ const fallbackMachines: Machine[] = [
   {
     id: "techno_automation_robot_400",
     name: "Automation Robot – Model 400",
-    location: "B-108/109, G.I.D.C., Electronics Estate, Sector-25, Gandhinagar, Gujarat - 382025",
+    location: "Line A1",
     video_url: "https://res.cloudinary.com/drygb9yrf/video/upload/v1756170249/automation-en.mp4",
     checklist: {
       preOp: [{ id: "test", en: "Test motor functionality" }],
